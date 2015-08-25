@@ -19,14 +19,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 10414,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -65,6 +57,7 @@
 	],
 	"file_history":
 	[
+		"/Users/Lye/Documents/git/Sweatshop.in/index.html",
 		"/Users/Lye/Documents/git/Sweatshop.in/css/sweatshop.css"
 	],
 	"find":
@@ -102,43 +95,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10414,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5608,
-								5608
-							],
-							[
-								5620,
-								5620
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1067.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
