@@ -16,7 +16,6 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    text-shadow: 2px 2px #444444;
     
 }
 
@@ -282,7 +281,7 @@ label {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat center center scroll;
+    background: url(../img/dark-blur-bg.jpg) no-repeat bottom center scroll;
     background-attachment: fixed;
     background-color: #26180C;
     -webkit-background-size: cover;
