@@ -16,6 +16,8 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
     
 }
 
@@ -62,7 +64,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #E4FF45;
+    color: #F9B42D;
 }
 
 label {
@@ -163,7 +165,6 @@ label {
     text-align: center;
     background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-attachment: fixed;
-    -webkit-transform: translate3d(0,0,0);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -212,6 +213,7 @@ label {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+    opacity: 1;
 }
 
 .btn-circle:hover,
@@ -331,12 +333,17 @@ label {
 .btn-default:focus {
     border: 1px solid #fff;
     outline: 0;
-    color: #8cb7b5;
+    color: #26180C;
     background-color: #fff;
 }
 
 ul.banner-social-buttons {
     margin-top: 0;
+}
+
+li.app {
+    margin-top: 40px;
+    text-shadow: 2px 2px #444444;
 }
 
 @media(max-width:1199px) {
@@ -359,6 +366,12 @@ ul.banner-social-buttons {
     .image {
         margin-top: -100px;
         position: none;
+    }
+
+    .btn-circle {
+        width: 100%;
+        height: 100%;
+        opacity: 0;
     }
 }
 
