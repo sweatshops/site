@@ -3,6 +3,18 @@
 	{
 		"selected_items":
 		[
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			]
 		]
 	},
 	"buffers":
@@ -11,7 +23,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11115,
+				"buffer_size": 10414,
 				"line_ending": "Unix"
 			}
 		}
@@ -48,10 +60,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/GX/Documents/Git/Sweatshop.in"
+		"/Users/Lye/Documents/git/Sweatshop.in",
+		"/Users/Lye/Documents/git/Sweatshop.in/css"
 	],
 	"file_history":
 	[
+		"/Users/Lye/Documents/git/Sweatshop.in/css/sweatshop.css"
 	],
 	"find":
 	{
@@ -69,6 +83,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ul",
 			"grayscale"
 		],
 		"highlight": true,
@@ -96,23 +111,29 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11115,
+						"buffer_size": 10414,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3896,
-								3896
+								5608,
+								5608
+							],
+							[
+								5620,
+								5620
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 1067.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
