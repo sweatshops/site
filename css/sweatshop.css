@@ -75,7 +75,9 @@ label {
 }
 
 .box {
-    position: absolute;
+    /*position: absolute;*/
+    display: block;
+    margin: 0 auto;
 }
 
 .accessory {
@@ -159,7 +161,11 @@ now override the 3.3 new styles for modern browsers & apply opacity
     }
 }
 
-@media(max-height:767px) and (max-width: 500px) {
+.about {
+    margin-top: 100px;
+}
+
+@media(max-width: 500px) {
     .accessory {
         width: 100%;
         height: 100%;
@@ -167,20 +173,39 @@ now override the 3.3 new styles for modern browsers & apply opacity
         margin-top: 0px;
     }
 
-    .jumbotron p {
+    .jumbotron p, p {
         font-size: 20px;
+        /*text-align: center;*/
+    }
+
+    .jumbotron h1, h1 {
+        font-size: 30px;
+        /*text-align: center;*/
     }
 
     .box {
-        opacity: 0.5;
+        /*opacity: 0.5;*/
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about {
+        margin-top: 0px;
     }
 }
 
-@media(max-height:600px) and (max-width: 500px) {
-    .jumbotron h1 {
-        font-size: 30px;
+@media(max-width: 768px) and (max-height: 500px) {
+    .about {
+        margin-top: 0px;
     }
 }
+
+/*@media(max-height:600px) and (max-width: 500px) {
+    .jumbotron h1, h1 {
+        font-size: 30px;
+    }
+}*/
 
 .home {
     background-color: #F5A623;
