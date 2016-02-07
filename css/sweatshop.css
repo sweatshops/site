@@ -34,7 +34,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -50,7 +50,7 @@ p {
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 20px;
+        /*font-size: 20px;*/
         line-height: 1.6;
     }
 }
@@ -74,6 +74,10 @@ label {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.box {
+    position: absolute;
+}
+
 .accessory {
     position:absolute; 
     margin-left: -194px;
@@ -88,10 +92,16 @@ label {
 
 .jumbotron p {
     font-size: 28px;
+    font-weight: 500;
 }
 
 .jumbotron h1 {
     font-size: 50px;
+}
+
+.carousel {
+    height: 650px;
+    padding-top: 100px;
 }
 
 @media(max-height:767px) and (max-width: 500px) {
@@ -104,6 +114,10 @@ label {
 
     .jumbotron p {
         font-size: 20px;
+    }
+
+    .box {
+        opacity: 0.5;
     }
 }
 
@@ -130,12 +144,12 @@ label {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    /*border-bottom: 1px solid rgba(255,255,255,.3);*/
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     font-size: 16px;
-    background-color: #26180C;
+    /*background-color: #26180C;*/
 }
 
 .navbar-custom .navbar-brand {
@@ -204,8 +218,9 @@ label {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #26180C;
+        /*border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #26180C;*/
+        color: rgba(255,255,255,.5);
     }
 }
 
@@ -253,14 +268,15 @@ label {
 }
 
 .btn-circle {
+    position: absolute;
     width: 70px;
     height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
+    margin-top: 50px;
+    padding: 7px 16px;/*
     border: 2px solid #fff;
-    border-radius: 100%!important;
-    font-size: 40px;
-    color: #fff;
+    border-radius: 100%!important;*/
+    font-size: 70px;
+    color: rgba(255,255,255,.6);
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -271,8 +287,8 @@ label {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
+    color: #fff;/*
+    background: rgba(255,255,255,.1);*/
 }
 
 .btn-circle i.animated {
@@ -328,7 +344,8 @@ label {
 }
 
 .content-section {
-    padding-top: 100px;
+    /*padding-top: 100px;*/
+    background-color: #3EC399;
 }
 
 .download-section {
@@ -352,7 +369,7 @@ label {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        /*padding-top: 250px;*/
     }
 
     .download-section {
@@ -426,14 +443,14 @@ li.app {
         opacity: 0;
     }
 }
-
+/*
 @media(max-height: 480px) {
     .btn-circle {
         width: 70px;
         height: 70px;
         opacity: 1.0;
     }
-}
+}*/
 
 footer {
     padding: 50px 0;
