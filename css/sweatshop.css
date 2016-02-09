@@ -74,6 +74,10 @@ label {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.is-fullheight {
+    min-height: 100vh;
+}
+
 .box {
     /*position: absolute;*/
     display: block;
